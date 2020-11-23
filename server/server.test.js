@@ -22,7 +22,7 @@ afterAll(()=> {
 
 describe('Testing Paths', () => {
   it('should respond to a GET request at ______', async () => {
-    let response = await request.get('/api/products');
+    let response = await request.get('/api/products1');
     expect(response.statusCode).toBe(200);
   });
 });

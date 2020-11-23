@@ -8,10 +8,12 @@
     "node": ">=6.13.0"
   },
   "jest": {
-      "setupFiles": [ "./setupTests.js"]
+    "setupFiles": [
+      "./setupTests.js"
+    ]
   },
   "scripts": {
-    "server": "nodemon server/index.js",
+    "server": "node server/index.js",
     "build": "webpack -d --watch",
     "seed": "node server/database/faker.js",
     "test": "jest",
